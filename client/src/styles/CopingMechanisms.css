@@ -1,0 +1,85 @@
+/* src/styles/CopingMechanisms.css */
+.coping-mechanisms-container {
+  padding: 20px;
+}
+
+.coping-mechanisms-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.coping-mechanism-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+  width: 300px;
+  cursor: pointer;
+}
+
+
+
+.coping-mechanism-item h3 {
+  color: #333;
+}
+
+.coping-mechanism-item p {
+  color: #666;
+}
+
+.coping-mechanism-item:hover {
+  transform: scale(1.05);
+}
+
+.coping-mechanism-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.coping-mechanism-description {
+  color: #666;
+  margin-top: 10px;
+}
+
+.coping-mechanism-header span {
+  font-size: 14px;
+  color: #3498db;
+  cursor: pointer;
+}
+
+.coping-mechanism-header span:hover {
+  text-decoration: underline;
+  color: #2980b9;
+}
+
+.additional-content-link {
+  color: #007bff; /* Blue color */
+  text-decoration: underline;
+  cursor: pointer;
+  display: block;
+  margin-top: 10px;
+}
+
+
+
+
+.additional-content-link,
+.video-link {
+color: #3498db; /* Set the link color */
+text-decoration: none; /* Remove the default underline */
+font-weight: bold; /* Make the text bold */
+margin-top: 10px; /* Add some top margin for spacing */
+display: inline-block; /* Display the link as a block element */
+transition: color 0.3s ease; /* Add a smooth color transition effect */
+}
+
+.additional-content-link:hover,
+.video-link:hover {
+color: #2980b9; /* Change the color on hover */
+}

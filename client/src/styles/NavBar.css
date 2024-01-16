@@ -1,0 +1,50 @@
+/* client/src/styles/NavBar.css */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100; /* Ensure the navbar appears above other elements */
+    background-color: navy; /* Set the background color for the navigation bar */
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  Link {
+    text-decoration: none;
+    color: #fff; /* Set the text color for the links */
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    transition: background-color 0.3s ease; /* Add a smooth background color transition effect */
+  }
+  
+  Link:hover {
+    background-color: #2980b9; /* Change the background color on hover */
+  }
+
+  /* Move the Home link to the right */
+ul li:first-child {
+    margin-left: auto;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

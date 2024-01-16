@@ -1,0 +1,176 @@
+/* src/styles/MindfulnessMeditationDetails.css */
+.mindfulness-meditation-details-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mindfulness-meditation-details-container h2 {
+    color: navy;
+  }
+  
+  .mindfulness-meditation-details-content {
+    margin-top: 20px;
+    font-size: 1rem;
+  line-height: 1;
+  }
+  
+  .instruction-section,
+  .benefits-section,
+  .explore-section {
+    margin-bottom: 20px;
+    
+  }
+  
+  .instruction-section h3,
+  .benefits-section h3,
+  .explore-section h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .instruction-section ul,
+  .benefits-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.2;
+  }
+  
+  .instruction-section li,
+  .benefits-section li {
+    width: 100%;
+    margin: 16px 0;
+    margin-bottom: 10px; 
+  }
+  
+  .instruction-section strong,
+  .benefits-section strong {
+    color: navy;
+    width: 150px; /* Set a fixed width for the strong element */
+    display: block;
+    font-weight: bolder;
+  }
+
+  /* Add this style if you want to remove the bullet points from the list items */
+.instruction-section li::before,
+.benefits-section li::before {
+  content: none;
+  line-height: 1.6;
+  margin-bottom: 12px;
+
+}
+
+  .instruction-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .instruction-section li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  .benefits-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .benefits-section li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    
+  }
+
+  .benefits-section strong {
+    color: navy;
+  }
+  
+  .additional-content-link {
+    color: navy;
+    text-decoration: underline;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .additional-content-link:hover {
+    color: #2980b9;
+  }
+  
+  /* Add more styles as needed */
+
+  /* Add responsive styles for screens up to 750px */
+@media screen and (max-width: 750px) {
+    .mindfulness-meditation-details-container {
+      padding: 10px;
+    }
+  
+    .mindfulness-meditation-details-container h2 {
+      font-size: 24px;
+    }
+  
+    .instruction-section h3,
+    .benefits-section h3,
+    .explore-section h3 {
+      font-size: 18px;
+    }
+  
+    .instruction-section ul,
+    .benefits-section ul {
+      padding-left: 20px;
+    }
+  
+    .additional-content-link {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Add responsive styles for screens up to 430px */
+  @media screen and (max-width: 430px) {
+    .mindfulness-meditation-details-container {
+      padding: 5px;
+    }
+  
+    .mindfulness-meditation-details-container h2 {
+      font-size: 20px;
+    }
+  
+    .instruction-section h3,
+    .benefits-section h3,
+    .explore-section h3 {
+      font-size: 16px;
+    }
+  
+    .instruction-section ul,
+    .benefits-section ul {
+      padding-left: 15px;
+    }
+  
+    .instruction-section li,
+    .benefits-section li {
+      margin-bottom: 8px;
+    }
+  
+    .additional-content-link {
+      margin-top: 10px;
+      font-size: 12px;
+    }
+  }
+
+  
